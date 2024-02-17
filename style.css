@@ -1,0 +1,646 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter%3Awght%40200%3B300%3B400&display=swap&fbclid=IwAR0chq2b3_aiHBplF0G59yiJHvBS9SgzuIoZ7SSpjll86rRS3lAmrSdCJOw");
+
+.body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 100%;
+}
+.sunnyside{
+    display: flex;
+    position: absolute;
+    left: 1%;
+    top: 1%;
+    /* border: 4px solid black; */
+    
+    
+    
+}
+.sunny{
+    font-weight: 1000;
+    font-size: 18px;
+    font-family: "Barlow",sans-serif;
+    color: aliceblue;
+}
+.nav{
+    display: flex;
+    position: absolute;
+    align-items: end;
+    /* border: 4px solid black; */
+    top: 3%;
+    left: 60%;
+    width: 350px;
+    justify-content: space-between;
+}
+.about,.services,.project{
+    
+  font-size: 15px;
+  font-family: "fraunces",sans-serif;
+  color: aliceblue;
+  
+}
+.contact{
+    display: flex;
+    position: absolute;
+
+    color: black;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family: "fraunces",sans-serif;
+    left: 91%;
+    top: 1.2%;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: #525252;
+    color: aliceblue;
+}
+.creative{
+    display: flex;
+    position: absolute;
+    top: 17%;
+    left: 35%;
+    font-size: 40px;
+    justify-content: center;
+}
+.crea{
+    font-family: "fraunces",serif;
+    text-align: center;
+    color: aliceblue;
+    font-weight: 900;
+}
+.lemon{
+    /* border: 4px solid black; */
+    height: 600px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+}
+.lemo{
+    height: 600px;
+    width: 100%;
+    
+}
+.logo{
+    display: flex;
+    position: absolute;
+    /* border: 4px solid white; */
+    top: 39%;
+    left: 48%;
+    font-size: 80px;
+    color: aliceblue;
+}
+.first{
+    display: flex;
+    position: absolute;
+    /* border: 4px solid black; */
+    height: 400px;
+    width: 100%;
+    top: 93.6%;
+    
+}
+.white{
+    display: flex;
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 50%;
+    left: 0%;
+    background-color: aliceblue;
+
+   
+    
+}
+.yellow{
+    display: flex;
+    position: absolute;
+    /* border: 4px solid black; */
+  height: 400px;
+  width: 50%;
+  left: 50%;
+  background-image: url("egg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+    
+}
+.text{
+    display: flex;
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 80px;
+    width:  300px;
+    left: 7%;
+    top: 25%;
+
+}
+.heading{
+ font-size: 40px;
+ font-family: "Fraunces",serif;
+ font-weight: 900;
+
+}
+.letter{
+    display: flex;
+    position: absolute;
+    height: 300px;
+    width: 330px;
+    left: 7%;
+    top: 128%;
+    text-align: justify;
+    color: grey;
+    font-family: "Fraunces",sans-serif;
+}
+.more{
+    display: flex;
+    position: absolute;
+    /* border: 4px solid black; */
+    top: 145%;
+    height: 50px;
+    width: 200px;
+    left: 7%;
+    
+}
+.learn{
+    font-size: 11px;
+    font-weight: 800;
+    font-family: "fraunces",serif;
+    
+}
+
+.glass{
+    display: flex;
+    position: absolute;
+    /* border: 4px solid black; */
+    height: 400px;
+    width: 50%;
+    top: 156%;
+    
+    background-image: url("glass.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+.standd{
+    display: flex;
+    position: absolute;
+    /* border: 4px solid black; */
+    height: 400px;
+    width: 50%;
+    top: 156%;
+    left: 50%;
+    background-color: aliceblue;
+}
+.stand{
+    display: flex;
+    position: absolute;
+    /* border: 4px solid black; */
+    height: 150px;
+    width: 400px;
+    top: 163%;
+    left: 55%;
+  
+}
+
+.out{
+    font-size: 40px;
+ font-family: "Fraunces",serif;
+ font-weight: 900;
+}
+.using{
+    display: flex;
+    position: absolute;
+    height: 300px;
+    width: 330px;
+    left: 55%;
+    top: 186%;
+    text-align: justify;
+    color: grey;
+    font-family: "Fraunces",sans-serif;
+}
+.moree{
+    display: flex;
+    position: absolute;
+    /* border: 4px solid black; */
+    top: 203%;
+    height: 50px;
+    width: 200px;
+    left: 55%;
+    
+}
+.learnn{
+    font-size: 11px;
+    font-weight: 800;
+    font-family: "fraunces",serif;
+
+    
+}
+.cherry{
+    display: flex;
+    position: absolute;
+    /* border: 4px solid black; */
+    height: 400px;
+    width: 50%;
+    top: 218.4%;
+    
+    
+}
+.chery{
+    height:400px;
+    width: 100%;
+
+}
+
+.orange{
+    display: flex;
+    position: absolute;
+    /* border: 4px solid black; */
+    height: 400px;
+    width: 50%;
+    top: 218.4%;
+    left: 50%;
+    
+    
+}
+.orang{
+    height:400px;
+    width: 100%;
+
+}
+.clients{
+ display: flex;
+ position: absolute;
+ /* border: 2px solid black; */
+ height: 50px;
+ width: 400px;
+ top: 295%;
+ left: 38%;
+ justify-content: center;
+}
+.testi{
+    font-size: 25px;
+    font-family: "fraunces",serif;
+    color: #525252;
+    word-spacing: 3px;
+    font-weight: 900;
+}
+
+.women{
+
+    display: flex;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 310%;
+
+border-radius: 50%;
+ left: 20%;
+ background-image: url("women.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+
+.womenn{
+
+    display: flex;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 310%;
+
+border-radius: 50%;
+ left: 50%;
+ background-image: url("women1.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+
+.man{
+
+    display: flex;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 310%;
+
+border-radius: 50%;
+ left: 80%;
+ background-image: url("man.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+}
+.trust{
+    display: flex;
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 300px;
+    top:325%;
+    left: 13%;
+}
+.paragraph{
+    font-size: 15px;
+    font-family: "fraunces",sans-serif;
+    color: grey;
+    text-align: justify;
+}
+.trusted{
+    display: flex;
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 300px;
+    top:325%;
+    left: 43%;
+}
+.paragraphh{
+    font-size: 15px;
+    font-family: "fraunces",sans-serif;
+    color: grey;
+    text-align: justify;
+}
+.trusting{
+    display: flex;
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 300px;
+    top:325%;
+    left: 72%;
+}
+.paragraphhh{
+    font-size: 15px;
+    font-family: "fraunces",sans-serif;
+    color: grey;
+    text-align:justify;
+}
+.emily{
+    display: flex;
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 345%;
+    left: 20%
+}
+.name{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "barlow",sans-serif;
+}
+.marketing{
+    display: flex;
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 350%;
+    left: 18.5%;
+    
+}
+.market{
+    color: #525252;
+    font-family: "barlow",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.jennie{
+    display: flex;
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 345%;
+    left: 50%
+}
+.namee{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "barlow",sans-serif;
+}
+.marketingg{
+    display: flex;
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 350%;
+    left: 49%;
+    
+}
+.markett{
+    color: #525252;
+    font-family: "barlow",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.thomas{
+    display: flex;
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 345%;
+    left: 80%
+}
+.nameee{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "barlow",sans-serif;
+}
+.marketinggg{
+    display: flex;
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    top: 350%;
+    left: 79%;
+    
+}
+.markettt{
+    color: #525252;
+    font-family: "barlow",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.cont{
+    display: flex;
+    position: absolute;
+     height: 190px;
+     width: 400px;
+     /* border: 2px solid black; */
+     top: 250%;
+     left: 4%;
+    flex-direction: column;
+     
+}
+.h{
+   font-size: 30px;
+   font-weight: 800;
+   font-family: "fraunces",serif;
+   
+}
+.conta{
+
+font-size: 15px;
+font-weight: 600;
+font-family: "fraunces",sans-serif;
+color: #525252;
+}
+
+
+
+.contt{
+    display: flex;
+    position: absolute;
+     height: 190px;
+     width: 400px;
+     /* border: 2px solid black; */
+     top: 250%;
+     left: 60%;
+    flex-direction: column;
+     
+}
+.hh{
+   font-size: 30px;
+   font-weight: 800;
+   font-family: "fraunces",serif;
+   
+}
+.contaa{
+
+font-size: 15px;
+font-weight: 600;
+font-family: "fraunces",sans-serif;
+color: #525252;
+}
+.bottle{
+    display: flex;
+    position: absolute;
+    height: 300px;
+    width: 25%;
+    top: 380%;
+    background-image: url("bottle.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cut{
+    display: flex;
+    position: absolute;
+    height: 300px;
+    width: 25%;
+    left: 25%;
+    top: 380%;
+    background-image: url("cut.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cone{
+    display: flex;
+    position: absolute;
+    
+    height: 300px;
+    width: 25%;
+    top: 380%;
+    left: 50%;
+    background-image: url("cone.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cube{
+
+        display: flex;
+        position: absolute;
+       
+        height: 300px;
+        width: 25%;
+        left: 75%;
+        top: 380%;
+        background-image: url("cube.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+}
+
+.end{
+    display: flex;
+    position: absolute;
+    top: 426.8%;
+    /* border: 2px solid black; */
+    height: 200px;
+    width: 100%;
+    background-color: #D3C5E5;
+}
+
+.sun{
+    display: flex;
+    position: absolute;
+    top: 435%;
+    
+    height: 80px;
+    width: 300px;
+    left: 46%;
+}
+.su{
+    font-weight: 1000;
+    font-size: 18px;
+    font-family: "Barlow",sans-serif;
+    color: grey;
+}
+.navigatio{
+    display:flex;
+    position: absolute;
+    height:40px;
+    width: 300px;
+    justify-content:space-between;
+
+    top: 445%;
+    left:39%;
+     font-size: 15px;
+     font-weight: 400;
+     font-family: "fraunces",sans-serif;
+ color: grey;
+}
+
+.links{
+    display: flex;
+    position: absolute;
+    /* border: 2px solid black; */
+    height: 30px;
+    width: 180px;
+    top: 450%;
+    left: 44%;
+    justify-content: space-between;
+    
+}
+.fb,.ig,.twi{
+  /* border: 2px solid black; */
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  
+  
+}
+
+.face,.insta,.twit{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    
+  
+}
